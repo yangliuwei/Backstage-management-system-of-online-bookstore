@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.el-input {
+  width: 70% !important;
+}
+
+.el-input__inner {
+  height: 35px;
+  border: 1px solid rgb(34, 33, 33);
+  background:rgba(43, 39, 39, 0.2);
+  color:white;
+}
+
+.bg {
+
+  background: url('../assets/bg4.jpg') no-repeat center top;
+  background-size: 100% 100%;
+}
+.el-input__inner:hover{
+    border-color: black;
+  
+  }
+  .el-input__inner:focus{
+      border-color: black;
+    box-shadow: 0 0 3px black inset;
+    background:rgba(43, 39, 39, 0.5);
+    
+  }
+  .el-form-item__label {
+    color: white;
+    padding: 0px 10px 0 0;
+  }
+  .gbtn{
+    background: url('../assets/btn1.png')repeat-x;
+    border-color: rgb(38,59,16);
+  }
+  .cbox{
+    background:rgba(43, 39, 39, 0.7);
+  box-shadow:-1px 1px 5px rgb(32, 32, 32) inset;
+  border-radius: 10px;
+}
+.loginPage{
+  color:white;
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.center{
+  margin:60px auto;
+  width: 500px;
+  height: 300px;
+}
+.el-steps--simple{
+ background:rgba(43, 39, 39, 0.7)
+}
+.el-step__head.is-process{
+ border-color: white;
+}
+.el-step__title.is-process{
+ color:white;
+}
+.el-step__line-inner{
+ border-style: none;
+}
+
+
